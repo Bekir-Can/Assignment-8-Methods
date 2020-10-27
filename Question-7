@@ -1,0 +1,26 @@
+/*Question-7
+		 *Complete a method isPalindrome() that will check if the number is a palindrome. Print your result as a boolean (true or false).
+		Do not convert int into a string! */
+
+		Palindrome(555);
+		
+	}
+
+	public static void Palindrome(int num1) {
+		
+		int num = num1, reversedInteger = 0, remainder, originalInteger;
+		originalInteger = num;
+		
+		 while( num != 0 )
+	        {
+	            remainder = num % 10;
+	            reversedInteger = reversedInteger * 10 + remainder;
+	            num  /= 10;
+	        }
+
+	        if (originalInteger == reversedInteger)
+	            System.out.println("true");
+	        else
+	            System.out.println("false");
+	    }
+	}
