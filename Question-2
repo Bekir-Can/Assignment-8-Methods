@@ -1,0 +1,19 @@
+/*Question-2
+
+	Create a method called cube. Write all required code inside this method in order to ask the user for a number 
+	and then prints the cubed value of that number:*/
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num1=sc.nextInt();
+		
+		int cubeResult=num1*(num1*num1);
+		
+		System.out.println("The result of cube is " + cubeResult);
+		
+		
+
+	}
+
+}
