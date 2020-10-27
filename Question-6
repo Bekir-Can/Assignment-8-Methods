@@ -1,0 +1,25 @@
+/*Question-6
+
+		Create a method called next3 . This method gets an int argument and prints the next 3 numbers after that number.
+		Call the method from main method and pass num to it.*/ 
+		
+		
+		
+		
+		next3(3);
+		
+		
+		
+
+	}
+
+	public static void next3(int num) {
+		
+		System.out.println("next3 number are:\n"+ (num+1)+" "+(num+2)+" "+(num+3));
+	
+	
+	}
+	
+	
+	
+}
