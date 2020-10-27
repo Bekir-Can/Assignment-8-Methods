@@ -1,0 +1,33 @@
+/*Question-9
+		 Create a method called max. It gets two ints, x and max.
+		 x is the test case, max is what we test against.
+         if x is bigger then max return max*/ 
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the first number");
+		int x = scan.nextInt();
+		
+		System.out.println("Enter the second number");
+		int max = scan.nextInt();
+		
+		System.out.println(max(x,max));
+		scan.close();
+		
+		
+	}
+
+		public static int max(int x,int max) {
+		
+		if(x<max) {
+			
+			return x;
+		}else {
+			
+		return max;
+		}
+			
+			
+	}
+
+}
